@@ -6,7 +6,7 @@ export type Project = {
   model: string;
   metrics: string[];
   githubUrl: string;
-  demoUrl: string;
+  demoUrl?: string; // add ? here
 };
 
 export const projects: Project[] = [
@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "Live Streamlit dashboard for per-lane analytics",
     ],
     githubUrl: "https://github.com/sanaullah-developer/multilane_speed_estimation_and_tracking",
-    demoUrl: "",
+    demoUrl: "public/output.mp4",
   },
   {
     slug: "cutout-ai-background-remover",
@@ -77,7 +77,6 @@ export const projects: Project[] = [
       "Real-time video stream processing",
     ],
     githubUrl: "https://github.com/sanaullah-developer/ppe_detection",
-    demoUrl: "",
   },
   {
     slug: "weapon-detection-system",
@@ -95,6 +94,5 @@ export const projects: Project[] = [
       "Latency: 4.2ms/frame on Tesla T4 GPU",
     ],
     githubUrl: "https://github.com/sanaullah-developer/pistol_detection",
-    demoUrl: "",
   },
 ];
