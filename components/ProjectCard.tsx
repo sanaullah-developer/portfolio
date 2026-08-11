@@ -41,17 +41,19 @@ export function ProjectCard({ project }: ProjectCardProps) {
           target="_blank"
           rel="noreferrer"
           className="rounded-lg border border-borderline px-4 py-2 text-textmain transition-colors duration-200 hover:border-accentsoft hover:text-accentsoft"
-        >
+          >
           GitHub
         </Link>
+        {project.demoUrl && (
         <Link
           href={project.demoUrl}
           target="_blank"
           rel="noreferrer"
           className="rounded-lg bg-accent px-4 py-2 font-semibold text-slatebase transition-colors duration-200 hover:bg-accentsoft"
-        >
-          Live Demo
+          >
+        Live Demo
         </Link>
+      )}
       </div>
     </article>
   );
