@@ -21,7 +21,7 @@ export function FeaturedProjects() {
         </Link>
       </div>
       <div className="mt-8 grid gap-6">
-        {projects.slice(0, 2).map((project) => (
+        {projects.slice(0, -1).map((project) => (
           <ProjectCard key={project.slug} project={project} />
         ))}
       </div>
