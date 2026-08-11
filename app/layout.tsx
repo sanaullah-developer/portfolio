@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "AI Engineer Portfolio",
     description:
       "Building production-level AI systems with a focus on Computer Vision and ML deployment.",
-    url: "https://your-portfolio-domain.vercel.app",
+    url: "https://sanaullahafd-portfolio.vercel.app",
     siteName: "AI Engineer Portfolio",
     type: "website"
   },
