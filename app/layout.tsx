@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-portfolio-domain.vercel.app"),
+  metadataBase: new URL("https://sanaullahafd-portfolio.vercel.app"),
   title: {
     default: "AI Engineer Portfolio | Computer Vision & ML Deployment",
     template: "%s | AI Engineer Portfolio"
